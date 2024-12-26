@@ -1,0 +1,136 @@
+footer {
+    background-color: #008080;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    /* justify-content: space-between; */
+
+}
+.whatsapp__logo{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin-left: 100px;
+
+}
+.footer__text {
+    font-size: 20px;
+    font-weight: 20px;
+    margin-left: 10px;
+}
+
+@media (max-width: 650px) {
+    .header__nav{
+        position: fixed;
+        top: 60px;
+        background-color: #008080;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        visibility: collapse;
+        opacity: 0;
+        transition: 0.5s;
+    }
+
+    .header__nav-active{
+        visibility: visible;
+        opacity: 1;
+    }
+    .navigation-header{
+        flex-direction: column;
+    }
+
+    .request:hover {
+        background-color: white;
+        color: #008080;
+        font-size: 16px;
+    }
+
+    .navigation-header a{
+        font-size: 18px;
+    }
+
+    nav a:hover {
+        transform: scale(1.05);
+    }
+    .burger__btn{
+        background-image: url("/img/burger_icon.svg.png"); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: block;
+        width: 40px; 
+        height: 43px;
+      
+    
+    }
+    .img{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advantages{
+        flex-direction: column;
+      
+    }
+    .left-block{
+        font-size: 100px;
+    }
+
+
+    .main__text{
+        width: 100%;
+    }
+
+    .main__title{
+        text-align: center;
+    }
+
+    .main__text2{
+        text-align: center;
+    }
+    .map{
+        width: 300px;
+        height: 300px;
+    }
+    .grid1{
+        display: flex;
+        flex-direction: column;
+    }
+    main{
+        padding: 10px;
+        padding-bottom: 100px;
+    }
+    .scroll__container{
+        padding-bottom: 10px;
+    }
+    .main__contrainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .img__main{
+        height: 20vw;
+        display: block;
+    }
+    .whatsapp__logo{
+        margin: 0;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .request:hover {
+        background-color: #008080;
+    }
+    .logo{
+        display: none;
+    }
+}
+
